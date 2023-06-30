@@ -8,7 +8,7 @@ kwijtgeraakt!
 Gelukkig weet jij inmiddels voldoende van HTML om deze pagina voor hen te publiceren!
 
 ![screenshot_with_styling_white_bg.png](assets/screenshots/screenshot_with_styling_white_bg.png)
-_Let op:_ dit screenshot bevat styling
+<sub>_Let op:_ dit screenshot bevat CSS-styling</sub>
 
 ## Voor je begint
 
