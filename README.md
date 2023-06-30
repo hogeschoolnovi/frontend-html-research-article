@@ -10,15 +10,15 @@ Gelukkig weet jij inmiddels voldoende van HTML om deze pagina voor hen te public
 ![screenshot_with_styling_white_bg.png](assets/screenshots/screenshot_with_styling_white_bg.png)
 <sub>_Let op:_ dit screenshot bevat CSS-styling</sub>
 
-## Voor je begint
-
 ## Opdracht 1 - Onderzoek
 
 Bijgevoegd vindt je een lijst met HTML-elementen die je wellicht nog nooit hebt gezien. En dat is ook niet zo gek, want
 er bestaan er wel _honderden_! Daarom ga je eerst op onderzoek uit. Loop de lijst met elementen één voor één langs en
 zoek
-een werkend voorbeeld op [MDN Webdocs](https://developer.mozilla.org/en-US/). Pak vervolgens het [eindresultaat mét
-styling]() erbij om te kijken op welke plekken je dit element zou kunnen toepassen en noteer dit.
+een werkend voorbeeld op [MDN Webdocs](https://developer.mozilla.org/en-US/) om te zien hoe het element toegepast moet
+worden. Pak vervolgens het [eindresultaat mét
+styling](https://github.com/hogeschoolnovi/frontend-html-research-article/blob/main/assets/screenshots/screenshot_eindresultaat_met_styling.png)
+erbij om te kijken op welke plekken je dit element zou kunnen toepassen en noteer dit.
 
 ```html
 
@@ -43,8 +43,10 @@ styling]() erbij om te kijken op welke plekken je dit element zou kunnen toepass
 
 ## Opdracht 2 - Bouwen
 
+Hoewel het eindresultaat inclusief styling er prachtig uitziet, zullen we eerst een stapje terug moeten doen.
 Je gaat het wetenschappelijke artikel namaken in HTML, zodat deze er exact zo uitziet als
-het [eindresultaat **zonder** styling](). Houdt rekening met het volgende:
+het [eindresultaat **zonder** styling](https://github.com/hogeschoolnovi/frontend-html-research-article/blob/main/assets/screenshots/screenshot_eindresultaat_zonder_styling.png).
+Ja, dit ziet er inderdaad uit alsof 'ie gemaakt is in 1998. Dat zullen we even moeten accepteren. Houdt rekening met het volgende:
 
 * Je mag **alleen HTML gebruiken** (dus geen CSS!);
 * In dit project staat al een leeg HTML-document waarin je kunt werken: `index.html`. Je hoeft dus zelf geen nieuwe
@@ -60,10 +62,10 @@ het [eindresultaat **zonder** styling](). Houdt rekening met het volgende:
 1. Zorg ervoor dat er "Scientific Research Article" in het tabblad komt te staan.
 2. Gebruik semantische elementen om het artikel in te delen in duidelijke gebieden. Let hierbij goed op welke
    heading-tags je gebruikt (`<h1>`, `<h2>`, `<h3>`, `<h4>` etc.) en voeg de tekst in op de juiste plaatsen.
-2. Kijk goed naar de inhoud van de tekst om te ontdekken welke bijzonderheden daarin staan. Denk bijvoorbeeld aan het
+3. Kijk goed naar de inhoud van de tekst om te ontdekken welke bijzonderheden daarin staan. Denk bijvoorbeeld aan het
    gebruik
    van `<strong>`, `<em>`, `<time>`, `<cite>`, `<blockquote>`, `<code>`, `<samp>` en `<sub>`.
-3. Voeg alle links in op de juiste plekken en zorg dat deze worden geopend in een nieuw tabblad:
+4. Voeg alle links in op de juiste plekken en zorg dat deze worden geopend in een nieuw tabblad:
     - Volume 128: _https://www.sciencedirect.com/journal/computers-and-education/vol/128/suppl/C_
     - Auteur-profiel Shahira: _https://www.scopus.com/authid/detail.uri?authorId=57204187244_
     - Auteur-profiel Louise: _https://www.scopus.com/authid/detail.uri?authorId=25121914800_
@@ -71,14 +73,14 @@ het [eindresultaat **zonder** styling](). Houdt rekening met het volgende:
     - Education Source: _https://www.ebsco.com/products/research-databases/education-source_
     - ERIC: _https://eric.ed.gov/_
     - EdHub: _https://edhub.novi.nl/_
-4. Richt je nu op de afbeeldingen. Deze moeten allemaal worden voorzien van een begeleidende tekst _("Figuur x:
+5. Richt je nu op de afbeeldingen. Deze moeten allemaal worden voorzien van een begeleidende tekst _("Figuur x:
    uitleg")_ en staan een stukje van de rand af... Welke speciale HTML-elementen kun je hiervoor gebruiken?
-5. Voeg de video `multimedia_preview_edhub.mov` in: deze is van het type `video/mp4`. We willen graag dat knopjes van de
+6. Voeg de video `multimedia_preview_edhub.mov` in: deze is van het type `video/mp4`. We willen graag dat knopjes van de
    videoplayer zichtbaar zijn. Zorg je er ook voor dat de video het plaatje `placeholder_video.png` weergeeft als de
    video niet wordt afgespeeld? Dit noem je een _thumbnail_.
-6. Richt de tabel in en houdt er rekening mee dat je o.a. een `<thead>` en `<tbody>` gebruikt en deze voorziet van een
+7. Richt de tabel in en houdt er rekening mee dat je o.a. een `<thead>` en `<tbody>` gebruikt en deze voorziet van een
    begeleidende tekst _("Figuur x: uitleg")_
-7. In de footer kun je het contactformulier plaatsen. Hoewel we deze nog niet écht naar de backend kunnen versturen,
+8. In de footer kun je het contactformulier plaatsen. Hoewel we deze nog niet écht naar de backend kunnen versturen,
    houd je toch rekening met correcte `name`-attributen. Let erop dat de radio-buttons van de vraag "Zou je meer
    van dit soort artikelen willen zien?" maar met één optie tegelijk aangevinkt kunnen worden. Zorg ervoor dat het
    vinkje
@@ -99,7 +101,9 @@ het [eindresultaat **zonder** styling](). Houdt rekening met het volgende:
 <h2 id="banaan">Bananen zijn geel</h2>
 ```
 
-* Ziet jouw pagina er precies zo uit als het [eindresultaat zonder styling]()? Dan kun je de meegeleverde styling
+* Ziet jouw pagina er precies zo uit als
+  het [eindresultaat zonder styling](https://github.com/hogeschoolnovi/frontend-html-research-article/blob/main/assets/screenshots/screenshot_eindresultaat_zonder_styling.png)?
+  Dan kun je de meegeleverde styling
   uit `styles.css` koppelen aan het document, door de volgende tag in de `<head>` te plaatsen. Als je de juiste
   elementen hebt gebruikt, zul je zien dat de pagina er ineens een stuk mooier uitziet!
 
